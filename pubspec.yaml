@@ -30,12 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.1.0        # Untuk koneksi ke Backend Laravel
-  shared_preferences: ^2.2.2 # Menyimpan token login
+  http: ^1.6.0        # Untuk koneksi ke Backend Laravel
+  shared_preferences: ^2.5.4 # Menyimpan token login
   google_fonts: ^8.0.1 # Agar font mirip desain modern
   geolocator: ^14.0.2 # Untuk mengambil titik koordin GPS
   flutter_map: ^8.2.2  # Library peta
   latlong2: ^0.9.0     # Untuk koordinat (Latitude/Longitude)
+  image_picker: ^1.0.4    # Ambil Foto untuk Laporan
+  intl: ^0.20.2     # Format Tanggal & Waktu
 
 
   # The following adds the Cupertino Icons font to your application.
